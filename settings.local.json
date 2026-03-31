@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(powershell -ExecutionPolicy Bypass -File \".claude/scripts/check-axios.ps1\" -TargetPath \".\")",
-      "Bash(powershell -Command \"[System.IO.File]::WriteAllText\\('C:\\\\dev\\\\.claude\\\\scripts\\\\check-axios.ps1', [System.IO.File]::ReadAllText\\('C:\\\\dev\\\\.claude\\\\scripts\\\\check-axios.ps1', [System.Text.Encoding]::UTF8\\), [System.Text.Encoding]::UTF8\\)\")",
-      "Bash(powershell -ExecutionPolicy Bypass -Command \"& { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; & 'C:\\\\dev\\\\.claude\\\\scripts\\\\check-axios.ps1' -TargetPath 'C:\\\\dev' }\")"
-    ]
-  }
-}
